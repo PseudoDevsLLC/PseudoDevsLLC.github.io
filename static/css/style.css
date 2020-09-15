@@ -42,7 +42,7 @@ h6 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 18px;
 	color: #6a7080;
 	line-height: 1.8;
 	font-weight: 500;
@@ -792,7 +792,6 @@ Responsive
 	}
 }
 
-
 a {
     color:inherit
 }
@@ -800,6 +799,7 @@ a {
 .navbar-nav > a{
     margin-right:50px;
   }
+
 
 .navbar-light {
    background-color: white;
@@ -822,3 +822,7 @@ a {
     background-color: #F78A0A;
     color: #F78A0A;
 } 
+
+a:hover {
+    color: #F78A0A !important;
+}
