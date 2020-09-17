@@ -58,3 +58,10 @@ $(window).on('load', function() {
 
 })(jQuery);
 
+
+//on click command for down arrow to scroll to a part of page
+$(".fa-arrow-down").on('click',function() {
+    $('html, body').animate({
+        'scrollTop' : $("#video").position().top
+    });
+  });
