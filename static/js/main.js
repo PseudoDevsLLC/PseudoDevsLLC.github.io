@@ -65,3 +65,10 @@ $(".fa-arrow-down").on('click',function() {
         'scrollTop' : $("#video").position().top
     });
   });
+
+  //on click command for down arrow to scroll to a part of page
+$("#about-link").on('click',function() {
+    $('html, body').animate({
+        'scrollTop' : $("#video").position().top
+    });
+  });
